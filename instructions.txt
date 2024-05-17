@@ -1,2 +1,5 @@
+Download data images to be labelled, then follow instructions in make_annotations.ipynb
+Download alphapose demo and keep in a folder called AlphaPose
+
 for AlphaPose: 
 python scripts/demo_inference.py --cfg configs/halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint pretrained_models/halpe26_fast_res50_256x192.pth --indir examples/demo/ --save_img
